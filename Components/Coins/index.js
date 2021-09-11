@@ -1,3 +1,4 @@
+
 const Coins = ({name, price, symbol, marketcap, volume, image, priceChange, id}) => {
     return (
         <div className="coin_container">
@@ -12,7 +13,7 @@ const Coins = ({name, price, symbol, marketcap, volume, image, priceChange, id})
                     <p className="coin_volume">${volume.toLocaleString()}</p>
                     {priceChange < 0 ? (
                         <p className="coin_percent red">
-                            {priceChange.toFised(2)}%
+                            {priceChange.toFixed(2)}%
                         </p>
                     ) : (
                         <p className="coin_percent green">

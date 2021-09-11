@@ -11,7 +11,7 @@ export default function CoinList ({ filteredCoins }) {
         price={coin.current_price}
         symbol={coin.symbol}
         marketcap={coin.market_cap}
-        volumes={coin.market_cap}
+        volume={coin.market_cap}
         image={coin.image}
         priceChange={coin.price_change_percentage_24h}
         />
@@ -19,4 +19,5 @@ export default function CoinList ({ filteredCoins }) {
     })}
     </>
     );
+
 }
