@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Coins = ({name, price, symbol, marketcap, volume, image, priceChange, id}) => {
     return (
         <div className="coin_container">
@@ -21,13 +19,17 @@ const Coins = ({name, price, symbol, marketcap, volume, image, priceChange, id})
                             {priceChange.toFixed(2)}%
                         </p>
                     )}
+
+                    <p className="coin_marketcap">
+                        Mkt Cap: ${marketcap.toLocaleString()}
+                    </p>
                 </div>
             </div>
 
         </div>
 
-    )
-}
+    );
+};
 
-export default Coins
+export default Coins;
  
