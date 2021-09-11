@@ -1,5 +1,5 @@
 import Head from "next/head";
-import CoinList from '../Components/Coins';
+import CoinList from '../Components/CoinList';
 import SearchBar from "../Components/SearchBar";
 
 export default function Home({filteredCoins}) {
