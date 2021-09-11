@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Coins = () => {
+const Coins = ({name}) => {
     return (
         <div>
-            <h1>Coins</h1>
+            <h1>{name}</h1>
         </div>
     )
 }

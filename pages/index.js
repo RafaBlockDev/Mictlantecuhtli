@@ -1,7 +1,7 @@
 import Coins from '../Components/Coins';
 import SearchBar from "../Components/SearchBar";
 
-export default function Home() {
+export default function Home({filteredCoins}) {
   return (
     <div>
       <Head>
