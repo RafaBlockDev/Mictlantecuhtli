@@ -1,4 +1,4 @@
-import styles from "./Coins.modules.css"
+import styles from "./Coins.module.css"
 
 const Coins = ({name, price, symbol, marketcap, volume, image, priceChange, id}) => {
     return (
